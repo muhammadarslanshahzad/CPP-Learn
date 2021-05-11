@@ -1,7 +1,7 @@
 /*
- ----------------------- Day 2 ----------------------
- ---  operators  --------------
- --- Date: 10.15.2020---------------------------------
+ ----------------------- Day 3 ----------------------
+ -----  operators  -----------------------------------
+ --- Date: 11.15.2020---------------------------------
  Author: Muhammad Arslan Shahzad, 
  ------------------------------------------------------
 */
@@ -227,8 +227,8 @@ int main(void){
 }
 
 
-/*
-Sample Output
+/**
+ * Sample Output
         Enter first value :90
         Enter second value :11
 
@@ -450,5 +450,5 @@ Sample Output
         12 & 6 Bitwise XOR success    
         One's complement of 12 is :-13
         After left shift 768
-   
+
 */ 
