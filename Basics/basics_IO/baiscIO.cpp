@@ -1,3 +1,11 @@
+/*
+ ----------------------- Day 1 ----------------------
+ -----  basic input output  -----------------------------------
+ --- Date: 09.05.2021---------------------------------
+ Author: Muhammad Arslan Shahzad, 
+ ------------------------------------------------------
+*/
+
 #include <iostream>                     //header files
 using namespace std;                    //namespaces
 
