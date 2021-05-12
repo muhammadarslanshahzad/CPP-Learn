@@ -1,0 +1,5 @@
+this is first message to file 
+Message added thorugh user console input
+
+this is 2nd message to file 
+File edited and 2nd message added.
