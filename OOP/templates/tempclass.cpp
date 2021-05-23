@@ -5,7 +5,7 @@
  Author: Muhammad Arslan Shahzad, 
  ------------------------------------------------------
 */
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 template <typename T>
