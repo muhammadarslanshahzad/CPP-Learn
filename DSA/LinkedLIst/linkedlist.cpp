@@ -72,6 +72,21 @@ void deletion(node* &head, int val){
     delete deletenode;
 }
 
+
+node * reverse ( node* &head){
+    node* preptr = NULL;
+    node* currptr = head;
+    node* nextptr ;
+    while(currptr != NULL){
+        nextptr = currptr->next;
+        currptr->next = preptr;
+        preptr = currptr;
+        currptr = nextptr;
+    }
+
+    return preptr;
+}
+
 int main(void){
 
     node * head =NULL;
@@ -91,6 +106,7 @@ int main(void){
     deletion(head, 1);
     deletion(head, 8);
 
+    reverse(head);
     display(head);
     
     return 0;
