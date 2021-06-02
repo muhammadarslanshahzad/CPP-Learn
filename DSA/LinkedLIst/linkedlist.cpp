@@ -45,6 +45,7 @@ void display(node* head){
         temp=temp->next;
     }
     cout<<"NULL"<<endl;
+    
 }
 
 //deletion
@@ -83,8 +84,11 @@ node * reverse ( node* &head){
         preptr = currptr;
         currptr = nextptr;
     }
+    
+    display(head);
 
     return preptr;
+
 }
 
 int main(void){
@@ -107,7 +111,6 @@ int main(void){
     deletion(head, 8);
 
     reverse(head);
-    display(head);
     
     return 0;
 }
