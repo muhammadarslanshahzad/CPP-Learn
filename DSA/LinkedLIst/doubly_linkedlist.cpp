@@ -68,7 +68,6 @@ int main(void){
     insertAtHead(head, 5);
     display(head);
 
-
     return 0;
 }
 
